@@ -17,3 +17,8 @@ MongoClient.connect(db.url, (err, database) => {
         console.log(`We are live on ${port}`);
     });
 })
+
+// home
+app.get('/home', (req, res) => {
+    res.sendFile(__dirname + '/views/index.html');
+})
