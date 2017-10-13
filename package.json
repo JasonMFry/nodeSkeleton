@@ -1,0 +1,20 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "Node skeleton",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Jason M. Fry",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
